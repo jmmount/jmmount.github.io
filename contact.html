@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c8f899dfe7.js" crossorigin="anonymous"></script>
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link
+  href="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css"
+  rel="stylesheet"
+/>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.js"></script>
+  <script src="portfolio.js"></script>
+  <link rel="stylesheet" href="path/to/custom.css">
+  <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+     
+    </style>
+  <body>
+    <div id="navbar"></div>
+    <div class="card">
+        <div class="card-body" style="height: 50vh;">
+          <h5 class="card-title">Location: St. Petersburg, FL</h5>
+          <div id="map"></div>
+        </div>
+      </div>
+      
+
+    <script>
+    
+    mapboxgl.accessToken = 'pk.eyJ1Ijoid2FyM21ibGVtIiwiYSI6ImNsZ2d0eXI0aDBmNXIzZXBkZW1vazFxeDEifQ._h6RVPncjTje8WDNtMRkxg';
+
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/outdoors-v12',
+        center: [-82.644,27.762],
+        zoom: 10
+    })
+
+    var marker = new mapboxgl.Marker()
+        .setLngLat([-82.644,27.762])
+        .addTo(map);
+
+        map.addControl(new mapboxgl.NavigationControl());
+
+    </script>
+      <div id="footer"></div>  
+
+  </body>
+</html>
