@@ -1,4 +1,6 @@
+
 /*navbar*/
+
 
 .social i{
     padding: 4px;
@@ -6,20 +8,57 @@
 
 .navbar-nav {
     margin-left: auto;
+    color: azure;
   }
+
+  .navbar-nav .nav-link {
+    color: azure !important;
+  }
+  
 
 .navbar-brand {
     font-size: 2.5em;
 }
 
-/*contact card*/
+#logo {
+    font-family: 'Kalam';
+    font-size: 48px;
+    color: azure;
+    
+}
+
+.navbar-light {
+    background-color: #007f66 !important;
+    
+    
+  }
+  
+/*content*/
+
+body {
+    background-color: #007f66;
+    color: azure;
+}
+
+/*footer*/
+
+#my-footer {
+    background-color: #001818 !important;
+    color: azure;
+}
+
+
+
+/*contact card
 
 
 .card-body {
-    margin-right: 30px;
+    
     position: relative;
-    height: 400px;
+    height: 200px;
     overflow: hidden;
+    background-color: #b9714f;
+    color: azure;
 }
 
 
@@ -32,9 +71,51 @@
     height: 375px;
 }
 
+*/
+
+/*needs media resposiveness*/
+#contact-info .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #contact-info .box {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #contact-info .box i {
+    margin-bottom: 10px;
+  }
+
+  .box {
+    background: #001818;
+    color: azure;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  
+table td {
+    padding-bottom: 5px;
+    background-color: #b9714f;
+    font-family: 'Kalam';
+    color: azure;
+   
+}
+
 td {
     padding: 10px;
     vertical-align: text-top;
+
   }
    
   
