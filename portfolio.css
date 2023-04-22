@@ -2,9 +2,34 @@
 /*navbar*/
 
 
-.social i{
-    padding: 4px;
+.social {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: azure;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5%;
+    border: #000 solid;
+    
 }
+
+.social i {
+  padding: 5px;
+}
+
+.social a:nth-child(2) .fa-github {
+  color: #000;
+}
+
+.social a:nth-child(2) i:hover {
+  color: #777;
+}
+
+
+
 
 .navbar-nav {
     margin-left: auto;
