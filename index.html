@@ -22,6 +22,10 @@
 <body>
  
   <div id="navbar"></div>
+  <div id="banner">
+    <p id="banner-text"></p>
+  </div>
+  <!--JS insert random words in random postions realted to abilities puzzle-->
   <div class="container my-5 content">
     <div class="row">
       <div class="col-md-8">
@@ -42,3 +46,15 @@
 </body>
 
 </html>
+
+<script>
+  const words = ['Teacher.', 'Programmer.', 'Student.', 'Writer.', 'Editor.', 'Athlete.', 'Educator.', 'Linguist.', 'Mentor.', 'Professor.', 'WebDev.', 'Life Long Learner.']
+function displayRandomWord() {
+  const bannerText = document.getElementById("banner-text");
+  const randomIndex = Math.floor(Math.random() * words.length);
+  bannerText.innerHTML = words[randomIndex];
+}
+
+displayRandomWord();
+setInterval(displayRandomWord, 3000);
+</script>

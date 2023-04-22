@@ -12,7 +12,7 @@
     width: fit-content;
     margin: 0 auto;
     border-radius: 5%;
-    border: #000 solid;
+    border: #333 thin;
     
 }
 
@@ -24,12 +24,16 @@
   color: #000;
 }
 
+.social a:nth-child(3) .fa-youtube {
+  color: #ff0000;
+}
+
 .social a:nth-child(2) i:hover {
   color: #333;
 }
 
 .social a:nth-child(3) i:hover {
-  color: 225 25 25;
+  color: #b31900;
 }
 
 
@@ -60,6 +64,11 @@
     
     
   }
+
+#banner-text {
+  margin: 7vmin 12vmin;
+  font-size: 48px;
+}
   
 /*content*/
 
