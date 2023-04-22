@@ -28,7 +28,7 @@
 }
 
 .navbar-light {
-    background-color: #007f66 !important;
+    background-color: #001818 !important;
     
     
   }
@@ -73,7 +73,7 @@ body {
 
 */
 
-/*needs media resposiveness*/
+
 #contact-info .container {
     display: flex;
     justify-content: space-between;
@@ -101,6 +101,26 @@ body {
     margin-bottom: 20px;
     text-align: center;
   }
+
+  @media screen and (max-width: 768px) {
+    #contact-info .box {
+      width: 100%;
+    }
+  }
+
+  #lets-talk .container .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #007f66;
+    margin-top: 1em;
+    color: azure;
+    font-size: 110px;
+    font-family: 'Kalam';
+    
+  }
+  
   
   
   
