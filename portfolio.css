@@ -95,9 +95,19 @@ body {
 }
 
 
+.card {
+  margin-right: 10px;
+}
 
-/*contact card
+.card:last-child {
+  margin-right: 0;
+}
 
+
+.card-group {
+  padding: 20px;
+  margin: 20px;
+}
 
 .card-body {
     
@@ -105,13 +115,20 @@ body {
     height: 200px;
     overflow: hidden;
     background-color: #b9714f;
-    color: azure;
+    color: #000;
 }
+
+@media (max-width: 768px) {
+  .card-group {
+    flex-direction: column;
+  }
+}
+
 
 
   
 
-#map {
+/*#map {
     position: absolute;
     bottom: 0;
     width: 100%;
