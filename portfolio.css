@@ -94,7 +94,7 @@ body {
     color: azure;
 }
 
-
+/*p[ortfolio content*/
 .card {
   margin-right: 10px;
 }
@@ -114,13 +114,21 @@ body {
     position: relative;
     height: 200px;
     overflow: hidden;
-    background-color: #b9714f;
+    background-color: #cfecf7;
     color: #000;
 }
+
+
 
 @media (max-width: 768px) {
   .card-group {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .card:last-child {
+    margin-right: 10px;
   }
 }
 
