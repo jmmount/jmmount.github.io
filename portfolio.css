@@ -52,6 +52,10 @@
     font-size: 2.5em;
 }
 
+
+
+
+
 #logo {
     font-family: 'Kalam';
     font-size: 48px;
@@ -60,10 +64,14 @@
 }
 
 .navbar-light {
-    background-color: #001818 !important;
-    
-    
+    background-color: rgba(0, 24, 24, .4) !important;
   }
+
+.navbar-light .navbar-toggler{
+  background-color: rgba(0,127,102);
+  border-color: azure;
+  color: azure;
+}
 
 #banner-text {
   margin: 7vmin 12vmin;
