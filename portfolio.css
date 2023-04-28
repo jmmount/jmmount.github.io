@@ -87,6 +87,14 @@ body {
     color: azure;
 }
 
+.container .content {
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+  }
+
 /*footer*/
 
 #my-footer {
@@ -94,9 +102,10 @@ body {
     color: azure;
 }
 
-/*p[ortfolio content*/
+/*portfolio content*/
 .card {
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .card:last-child {
@@ -112,25 +121,35 @@ body {
 .card-body {
     
     position: relative;
-    height: 200px;
-    overflow: hidden;
+    min-height: 200px;
+    overflow: auto;
     background-color: #cfecf7;
     color: #000;
 }
+
+.card-img-top {
+  height: 200px; 
+  object-fit: contain; 
+  margin: 10px;
+}
+
+
 
 
 
 @media (max-width: 768px) {
   .card-group {
     flex-direction: column;
+    
+  }
+
+  .card:last-child {
+    margin-right: 10px;
+    
   }
 }
 
-@media (max-width: 768px) {
-  .card:last-child {
-    margin-right: 10px;
-  }
-}
+
 
 
 
