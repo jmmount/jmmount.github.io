@@ -117,7 +117,11 @@ body {
 #my-footer {
     background-color: #001818 !important;
     color: azure;
+    height: 125px;
+    display: flex;
+    align-items: center;
 }
+
 
 /*portfolio content*/
 .card {
@@ -151,11 +155,24 @@ body {
   max-width: 100%;
 }
 
+.btn {
+  display: inline-block;
+  color: azure;
+  background: #001818;
+  font-size: 18px;
+  margin-top: 1em;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  
+}
 
-
-
-
+.btn:hover {
+  color: azure;
+  background: #007f66;
+}
 @media (max-width: 768px) {
+
   .card-group {
     flex-direction: column;
     
@@ -221,17 +238,42 @@ body {
     }
   }
 
-  #lets-talk .container .box {
+  #lets-talk .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 35vh;
+  }
+  
+  #lets-talk .container .box {
+    flex-basis: 50%;
+    height: 50vh;
     background-color: #007f66;
-    margin-top: .5em;
+    margin-top: 0.5em;
     color: azure;
     font-size: 110px;
     font-family: 'Kalam';
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lets-talk .container #palm-image {
+    flex-basis: 50%;
+    height: 50vh;
+    margin-top: 0.5em;
+  }
+  
+  #lets-talk .container #palm-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 768px) {
+    #lets-talk .container {
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
   }
   
   
