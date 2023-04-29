@@ -117,7 +117,7 @@ body {
 
 /*portfolio content*/
 .card {
-  margin-right: 10px;
+  margin-right: 5px;
   margin-bottom: 20px;
 }
 
@@ -188,6 +188,7 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+
 }
 /*projects*/
 
@@ -205,6 +206,19 @@ body {
 */
 
 /*about*/
+
+.education-list {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.education-list li {
+  margin-bottom: 10px; /* adds margin below each list item */
+  text-align: left; /* aligns the text to the left */
+  padding-left: 20px; /* adds left padding to the list items */
+}
 
 
 /*icons*/
