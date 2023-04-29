@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c8f899dfe7.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="portfolio.js"></script>
+  <link rel="stylesheet" href="path/to/custom.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <section class="solutions flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <div style="width: 500px; height: 500px;">
+              <iframe src="Resume- Jason Mount.pdf" style="width: 480px; height: 480px;" frameborder="5px"></iframe>
+              
+            </div>
+            
+         
+          </div>
+        </div>
+          <div class="column">
+            <div class="column-2">
+              <h4>What you are looking for</h4>
+              <h2>We provide authentic opportunities for learning</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex odit amet iure, quae sunt tempora suscipit ullam animi libero ab ipsam quam doloremque praesentium, accusantium voluptates commodi vero a fugiat.</p>
+              <button class="btn" onclick="openPdf()">Open Resume</button>
+                <i class="fas fa-chevron"></i> 
+               
+             
+            
+          </div>
+  
+        </div>
+      </div>
+     </section>
+    <section id="about" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+        <i class="fas fa-university fa-2x"></i>
+        <div>
+          <h3>Education</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident mollitia reiciendis facilis commodi, deserunt omnis?</p>
+        </div>
+      </div>
+      <div>
+        <i class="fas fa-book-reader fa-2x"></i>
+        <div>
+          <h3>Relevant Curricula</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident mollitia reiciendis facilis commodi, deserunt omnis?</p>
+        </div>
+      </div>
+      <div>
+        <i class="fa-solid fa-comments fa-2x"></i>
+        <div>
+          <h3>Skills and Experience</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident mollitia reiciendis facilis commodi, deserunt omnis?</p>
+        </div>
+      </div>
+      </div>
+      </section>
+      <div id="footer"></div>  
+</body>
+
+<script>
+  function openPdf() {
+    window.open("Resume- Jason Mount.pdf", "_blank", "width=800,height=600");
+  }
+  </script>
