@@ -4,9 +4,9 @@
 This portfolio includes projects that I have worked on during the MIT xPro Certificate course in coding. 
 
 ### Description. 
-1. PacMen Exercise
+1. <a href="http://jmmount.github.io/eye-exercise">Eye Movement Exercise</a>
 2. <a href="http://jmmount.github.io/eye-exercise">Eye Movement Exercise</a>
-3. Real-Time Bus Tracker
+3. <a href="http://jmmount.github.io/eye-exercise">Eye Movement Exercise</a>
 
 ### Usage. 
 Thusfar, the projects demonstrate the first 10 weeks of learning JavaScript essentials.
