@@ -5,7 +5,7 @@ This portfolio includes projects that I have worked on during the MIT xPro Certi
 
 ### Description. 
 1. PacMen Exercise
-2. Eye Movement Exercise
+2. <a href="http://jmmount.github.io/eye-exercise">Eye Movement Exercise</a>
 3. Real-Time Bus Tracker
 
 ### Usage. 
