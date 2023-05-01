@@ -121,12 +121,7 @@ body {
     font-size: 48px;
   }
 
-  @media (max-width: 768px) {
-
-    .col-md-4 {
-      margin-top: 10px;
-      
-    }
+  
   
 
 
