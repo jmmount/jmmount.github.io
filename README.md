@@ -4,9 +4,9 @@
 This portfolio includes projects that I have worked on during the MIT xPro Certificate course in coding. 
 
 ### Description. 
-1. PacMen Exercise
-2. Eye Movement Exercise
-3. Real-Time Bus Tracker
+1. PacMen-Exercise
+2. Eye-exercise
+3. MIT-to-Harvard">Real-Time Bus Tracker
 
 ### Usage. 
 Thusfar, the projects demonstrate the first 10 weeks of learning JavaScript essentials.
