@@ -9,28 +9,33 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: azure;
     width: fit-content;
     margin: 0 auto;
     border-radius: 5%;
-    border: #333 thin;
+  
     
 }
 
 .social i {
   padding: 5px;
+  
 }
+
+
 
 .social a:nth-child(2) .fa-github {
   color: #000;
+  
 }
 
 .social a:nth-child(3) .fa-youtube {
   color: #ff0000;
+  
 }
 
 .social a:nth-child(2) i:hover {
   color: #333;
+  
 }
 
 .social a:nth-child(3) i:hover {
